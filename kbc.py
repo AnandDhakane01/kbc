@@ -1,4 +1,3 @@
-import random
 from questions import QUESTIONS
 
 
@@ -54,6 +53,7 @@ def kbc():
                 print(f'\t\t\tOption 3: {question["option3"]}')
                 print(f'\t\t\tOption 4: {question["option4"]}')
                 ans = input('Your choice ( 1-4 ) : ')
+
             else:
                 print("You can't use lifeline at this stage!!")
                 ans = input('Your choice ( 1-4 ) : ')
